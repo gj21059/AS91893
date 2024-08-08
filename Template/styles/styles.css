@@ -63,7 +63,7 @@ nav a:not(.about-us):hover::after {
 }
 
 .about-us {
-    background-color: black;
+    background-color: #2AACB9;
     padding: 10px 15px;
     border-radius: 20px;
     color: white;
