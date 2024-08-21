@@ -118,7 +118,63 @@ header nav a:not(.about-us):hover::after {
     text-decoration: none;
 }
 
+.about_us{
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
 
+.about_us_text{
+    padding:20px;
+}
+
+.about_us_photo{
+    padding:20px;
+}
+.about_us_photo img{
+    width:300px;
+}
+
+#intro_2 {
+    position:relative;
+    background: black url(/Actual_Website/styles/rangitoto/rangitoto-volcano-nz.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    width:1600px;
+    color:white;
+}
+
+#intro_block_2 {
+    width:1600px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.675);
+    height:100%;
+    
+}
+
+#intro_block_2_text{
+    width:800px;
+}
+#intro_block_2 h1{
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    align-items: center
+}
+
+#intro_block_2 p{
+    font-size:20px
+}
 
 #footer {
     background-color: rgb(43, 43, 43); 
