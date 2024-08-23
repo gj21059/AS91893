@@ -91,8 +91,6 @@ header nav a:not(.about-us):hover::after {
 
 .lake_pupuke_container{
     width:1600px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 
 }
 
@@ -128,6 +126,40 @@ header nav a:not(.about-us):hover::after {
     text-align:center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.pupuke_img{
+    width:1600px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pupuke_img img{
+    width:1000px;
+    object-fit: cover;
+    height:300px;
+    border-radius: 10px;
+}
+#intro {
+    background: black url(/Actual_Website/styles/rangitoto/2740175257_71e703fde3_k.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width:1600px;
+}
+
+#intro_block {
+    width:1600px;
+    text-align: center;
+    width: 1600px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+#intro_block h1{
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 #footer {
