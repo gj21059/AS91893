@@ -162,6 +162,37 @@ header nav a:not(.about-us):hover::after {
     font-weight: 700;
 }
 
+.rangitoto_container{
+    width:1600px;
+
+}
+
+.rangitoto_description{
+    width:1600px;
+    display:flex;
+    justify-content: center;
+}
+.maori_association{
+    width:500px;
+}
+
+.maori_association img{
+    width:500px;
+}
+
+.geology_container{
+    width:1600px;
+}
+.geology_text_img{
+    width:1600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geology_text_img img{
+    width:300px;
+}
 #footer {
     background-color: rgb(43, 43, 43); 
     color: white;
