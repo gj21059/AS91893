@@ -88,38 +88,44 @@ header nav a:not(.about-us):hover::after {
     background-color: #e0e0e0; 
     color: black;
 }
-.header_img{
-    width:1600px;
-    float:left;
-    position:relative;
+.header_img {
+    width: 1600px;
+    float: left;
+    position: relative;
 }
-.header_img img{
-    width:1600px;
-    height: 300px;
-    object-fit:cover;
+
+.header_img img {
+    width: 1600px;
+    height: 400px;
+    object-fit: cover;
 }
+
 .header_img::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 1600px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.575);
 }
-.text_container{
-    width:1600px;
-    padding:10px;
-    position:absolute;
-    bottom:40px;
-}
-.actual_text{
-    width:1600px;
-    color:white;
-    text-align:center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+.text_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.actual_text {
+    color: white;
+    text-align: center;
+}
+
 .ngati_paoa_container{
     width:1600px;
     align-items: center;
@@ -136,6 +142,7 @@ header nav a:not(.about-us):hover::after {
     width:500px;
     object-fit: cover;
     border-radius:10px;
+    padding-top:40px;
     
 }
 .ngati_paoa_text{
@@ -182,6 +189,7 @@ header nav a:not(.about-us):hover::after {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: -40px;
 }
 
 .history_container img{
