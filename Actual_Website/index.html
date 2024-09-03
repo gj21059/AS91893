@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font and Fancybox for image gallery functionality -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="styles/styles.css"> 
+
+    <!-- Page title -->
     <title>Pupuke Kahui Ako</title>
 </head>
 <body>
+    <!-- Main container for the entire page -->
     <div id="page_container">
+
+        <!-- Header section containing logo and navigation -->
         <header class="header">
             <div class="logo_text"> 
+                <!-- Logo linking back to the homepage -->
                 <a href="index.html" class="logo">
                     <img src="styles/kahui-ako-round-logo-2-3.jpg" alt="Pupuke Kahui Logo">
                     <span>Pupuke Kahui Ako</span>
                 </a>
             </div>
+
+            <!-- Navigation bar for the website -->
             <nav>
                 <a href="index.html">Home</a>
                 <a href="pupuke.html">Pupuke</a>
@@ -27,14 +39,17 @@
             </nav>
         </header>
         
+        <!-- The main homepage section, a brief description of Pupuke Kahui Ako -->
         <section id="intro">
             <div id="intro_block">
                 <h1>Pupuke Kahui Ako</h1>
                 <p>‘Ehara taku toa i te toa takitahi, engari he toa takitini’ – success is not the work of an individual, but the work of many.</p>
+                <!-- Button to the 'About Us' section -->
                 <a href="index.html#anchor_jump" class="about-us">About Us</a>
             </div>
         </section>
         
+        <!-- 'About Us' section providing information about Pupuke Kahui Ako -->
         <div class="about_us" id="anchor_jump">
             <div class="about_us_text">
                 <h2>About Us</h2>
@@ -42,11 +57,13 @@
                 <p>‘Ehara taku toa i te toa takitahi, engari he toa takitini’ – success is not the work of an individual, but the work of many.</p>
                 <p><b>Westlake Boys High School in its Locality</b></p>
             </div>
+            <!-- Image associated with the 'About Us' section, the Pupuke Kahui Ako Logo -->
             <div class="about_us_photo">
                 <img src="styles/logo_without_background.png" alt="Kahui Ako Logo">
             </div>
         </div>
         
+        <!-- Second introductory of the Rangitoto waiata on the homepage -->
         <section id="intro_2">
             <div id="intro_block_2">
                 <div id="intro_block_2_text">
@@ -67,11 +84,14 @@
             </div>
         </section>
         
+        <!-- Gallery section displaying images related to Pupuke Kahui Ako -->
         <div id="gallery">
             <div class="gallery_text">
                 <h2>Pupuke Kahui Ako Gallery</h2>
                 <p>‘Ehara taku toa i te toa takitahi, engari he toa takitini’ – success is not the work of an individual, but the work of many.</p>
             </div>
+
+            <!-- Thumbnails linking to larger images displayed in the Fancybox -->
             <a data-fancybox="gallery" href="styles/rangitoto/Rangitoto_from_Achilles_Point.jpg">
                 <img src="styles/rangitoto/Rangitoto_from_Achilles_Point.jpg" class="thumb" alt="A view of Rangitoto from Achilles Point">
             </a>
@@ -101,6 +121,7 @@
             </a>
         </div>
 
+        <!-- Footer section containing logo, navigation, and the acutal website -->
         <footer id="footer">
             <div id="footer_container">
                 <div id="footer_logo">
@@ -114,7 +135,6 @@
                 </nav>
                 <div id="footer_contact">
                     <p>Website: <a href="https://www.tekaahuiakoopupuke.co.nz/" target="_blank">https://www.tekaahuiakoopupuke.co.nz/</a></p>
-                    <p>Phone: (123) 456-7890</p>
                 </div>
             </div>
         </footer>

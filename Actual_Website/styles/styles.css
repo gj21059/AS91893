@@ -1,9 +1,12 @@
+/* Import Poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* General body styling */
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Page container styling */
 #page_container {
     width: 1600px;
     margin: 0 auto;
@@ -11,6 +14,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Header section styling */
 .header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +24,7 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+/* Logo styling in header */
 .logo {
     font-size: 32px;
     color: black;
@@ -34,6 +39,7 @@ body {
     margin-right: 10px;
 }
 
+/* Navigation bar styling */
 header nav {
     display: flex;
     align-items: center;
@@ -52,6 +58,7 @@ nav a:first-child {
     margin-left: 0;
 }
 
+/* Underline effect on nav links except 'About Us' */
 nav a:not(.about-us)::after {
     content: '';
     display: block;
@@ -68,6 +75,7 @@ header nav a:not(.about-us):hover::after {
     width: 100%;
 }
 
+/* 'About Us' button styling */
 .about-us {
     background-color: #319ba5;
     padding: 10px 15px;
@@ -81,6 +89,7 @@ header nav a:not(.about-us):hover::after {
     color: black;
 }
 
+/* Introduction section styling */
 #intro {
     background: black url(/Actual_Website/styles/pupuke/heartshaped.png) no-repeat center;
     background-size: cover;
@@ -88,6 +97,7 @@ header nav a:not(.about-us):hover::after {
     width: 1600px;
 }
 
+/* Intro block styling */
 #intro_block {
     text-align: center;
     margin: 0 auto;
@@ -108,6 +118,7 @@ header nav a:not(.about-us):hover::after {
     margin-top: 30px;
 }
 
+/* 'About Us' section styling */
 .about_us {
     width: 1600px;
     display: flex;
@@ -117,6 +128,7 @@ header nav a:not(.about-us):hover::after {
     color: white;
 }
 
+/* Text and photo in 'About Us' section */
 .about_us_text {
     padding: 50px;
     width: 700px;
@@ -131,6 +143,7 @@ header nav a:not(.about-us):hover::after {
     width: 300px;
 }
 
+/* Second intro section styling */
 #intro_2 {
     position: relative;
     background: black url(/Actual_Website/styles/rangitoto/rangitoto-volcano-nz.jpg) no-repeat center;
@@ -140,6 +153,7 @@ header nav a:not(.about-us):hover::after {
     color: white;
 }
 
+/* Intro block for second section styling */
 #intro_block_2 {
     position: absolute;
     display: flex;
@@ -166,6 +180,7 @@ header nav a:not(.about-us):hover::after {
     font-size: 20px;
 }
 
+/* Gallery section styling */
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -173,11 +188,13 @@ header nav a:not(.about-us):hover::after {
     width: 1600px;
 }
 
+/* Gallery text styling */
 .gallery_text {
     width: 1600px;
     text-align: center;
 }
 
+/* Gallery images styling */
 #gallery img {
     margin: 20px;
     width: 400px;
@@ -185,11 +202,13 @@ header nav a:not(.about-us):hover::after {
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Thumbnail images styling */
 .thumb {
     width: 275px;
     margin: 10px;
 }
 
+/* Footer section styling */
 #footer {
     background-color: rgb(43, 43, 43); 
     color: white;
@@ -201,14 +220,16 @@ header nav a:not(.about-us):hover::after {
     text-align: center;
 }
 
+/* Footer container styling */
 #footer_container {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+/* Footer logo styling */
 #footer_logo {
     margin: 20px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -219,6 +240,7 @@ header nav a:not(.about-us):hover::after {
     font-weight: bold;
 }
 
+/* Footer navigation styling */
 #footer_nav {
     display: flex;
     justify-content: center;
@@ -230,15 +252,16 @@ header nav a:not(.about-us):hover::after {
     color: white;
     text-decoration: none;
     font-size: 19px;
-    padding:30px;
+    padding: 30px;
 }
 
+/* Footer contact information styling */
 #footer_contact p {
     margin: 5px 0;
     font-size: 16px;
 }
 
 #footer_contact a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
